@@ -1,3 +1,5 @@
+import ex25
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -74,7 +76,6 @@ print "We can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
 
 
-import ex25
 
 sentence = "All god\tthings come to those who weight."
 
